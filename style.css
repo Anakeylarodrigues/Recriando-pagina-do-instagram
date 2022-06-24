@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.instagram-p {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-phone img {
+    width: 700px;
+}
+
+.instagram-continue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 544px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    width: 100%;
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+.login {
+    border: 1px solid rgb(12, 118, 204);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(12, 118, 204);
+    color: white;
+    text-decoration: none;
+}
+
+.logout {
+    color: rgb(12, 118, 204);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.not {
+    color: rgb(131, 130, 130);
+}
+
+.conta {
+    color: rgb(12, 118, 204);
+    text-decoration: none;
+}
+
+.increver {
+    color: rgb(12, 118, 204);
+    text-decoration: none;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+.download img {
+    width: 150px;
+    padding-left: 10px;
+}
+
+/* mobile */
+
+@media (max-width: 1024px) {
+    .instagram-p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram-p {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .part {
+        border: 1px solid transparent;
+    }
+} 
